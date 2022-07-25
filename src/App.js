@@ -2,6 +2,8 @@ import { VStack , Flex, Heading, IconButton , Spacer, DrawerFooter} from "@chakr
 import {useColorMode} from "@chakra-ui/color-mode";
 import {FaSun, FaMoon, FaGithub} from "react-icons/fa";
 
+import React, { useEffect} from "react";
+
 import Header from "./components/Header";
 import Works from "./components/Works";
 import Footer from "./components/Footer"
@@ -11,6 +13,11 @@ function App() {
   const {colorMode, toggleColorMode} = useColorMode();
 
   const isDark = colorMode === 'dark';
+
+  useEffect(() => {
+    document.title = "Dylan Khan";  
+  }, []);
+  
 
   return (
     <Flex direction="column" minH={'100vh'}>
