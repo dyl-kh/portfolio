@@ -12,7 +12,7 @@ function WorkCard(props) {
   return (
     <Box w='xs' overflow='hidden' onClick={onClick} cursor='pointer'
     _hover={{transform:'scale(1.05)'}} transition='all 100ms ease-in-out'>
-    <Image src={img} alt={imgAlt} borderRadius='lg'></Image>
+    <Image src={img} alt={imgAlt} borderRadius='lg' h='200px' objectFit='cover'></Image>
     <Box p='5px'>
         <Heading fontSize='2xl' fontWeight='semibold' align='center'>{title}</Heading>
         <Text align='center' fontSize='xl'>{info}</Text>
