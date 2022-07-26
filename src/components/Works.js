@@ -26,7 +26,7 @@ function Works() {
                     <WorkCard title='Tic-Tac-Toe' info='A fun game for two players' img={tictactoeImg} 
                     imgAlt='An image of a tic-tac-toe board' link='https://dyl-kh.github.io/tic-tac-toe/'/>
                     
-                    <WorkCard title='Memory Game' info='Challening game of memory' img={memoryImg} 
+                    <WorkCard title='Memory Game' info='Challenging game of memory' img={memoryImg} 
                     imgAlt='An image of the memory game' link='https://dyl-kh.github.io/memorygame/'/>
 
                 </Flex>
